@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/week12-Shunlong/', // 替换为您的仓库名称
   plugins: [
     vue(),
     vueDevTools(),
